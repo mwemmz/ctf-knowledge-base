@@ -1,0 +1,6 @@
+# Source
+
+- Repo: [edoardottt/tryhackme-ctf](https://github.com/edoardottt/tryhackme-ctf)
+- Original path: `Advent-of-Cyber-2021/Day-07-Migration_Without_Security`
+- Category assigned: `web` (automated keyword classification -- verify/adjust as needed)
+- This folder contains only the text/code artifacts from the original path; screenshots, pcaps, and other binary assets were intentionally excluded to keep the archive lightweight. See the source repo for those.

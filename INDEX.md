@@ -1,0 +1,886 @@
+# CTF Knowledge Base
+
+A personal, technique-organized archive assembled from several public CTF/pentest writeup repositories. Only text and code artifacts (writeups, notes, solver/exploit scripts) were kept -- screenshots, pcaps, and other binary assets were intentionally excluded to keep this lightweight; follow the source link in each item's `SOURCE.md` for the full original content.
+
+**810 items** pulled from **10 source repositories**, sorted into technique categories automatically (keyword + path-based heuristic classification -- not hand-reviewed, so expect some items in the wrong bucket, especially under `misc`).
+
+## Sources
+
+- [7h3rAm/writeups](https://github.com/7h3rAm/writeups) -- 80 items
+- [Adamkadaban/CTFs](https://github.com/Adamkadaban/CTFs) -- 210 items
+- [Ben-Ammar-Sabri/pentest-labs-writeups](https://github.com/Ben-Ammar-Sabri/pentest-labs-writeups) -- 83 items
+- [Ciyah/CTFChall-Writeups](https://github.com/Ciyah/CTFChall-Writeups) -- 157 items
+- [Ednas/WriteUps](https://github.com/Ednas/WriteUps) -- 19 items
+- [The-Viper-One/Pentest-Everything](https://github.com/The-Viper-One/Pentest-Everything) -- 59 items
+- [edoardottt/tryhackme-ctf](https://github.com/edoardottt/tryhackme-ctf) -- 155 items
+- [kurohat/writeUp](https://github.com/kurohat/writeUp) -- 24 items
+- [migueltc13/TryHackMe](https://github.com/migueltc13/TryHackMe) -- 12 items
+- [sarperavci/CTF-Writeups](https://github.com/sarperavci/CTF-Writeups) -- 11 items
+
+## Challenges, by technique
+
+### active-directory (33)
+
+- [Enterprise](challenges/active-directory/CTFs__Enterprise) -- from Adamkadaban/CTFs
+- [Forest](challenges/active-directory/CTFs__Forest) -- from Adamkadaban/CTFs
+- [active-directory](challenges/active-directory/Pentest-Everything__active-directory) -- from The-Viper-One/Pentest-Everything
+- [active-directory](challenges/active-directory/Pentest-Everything__active-directory-2) -- from The-Viper-One/Pentest-Everything
+- [assets](challenges/active-directory/Pentest-Everything__assets) -- from The-Viper-One/Pentest-Everything
+- [psmapexec](challenges/active-directory/Pentest-Everything__psmapexec) -- from The-Viper-One/Pentest-Everything
+- [resources](challenges/active-directory/Pentest-Everything__resources) -- from The-Viper-One/Pentest-Everything
+- [windows](challenges/active-directory/Pentest-Everything__windows) -- from The-Viper-One/Pentest-Everything
+- [wip-osint](challenges/active-directory/Pentest-Everything__wip-osint) -- from The-Viper-One/Pentest-Everything
+- [work-in-progress](challenges/active-directory/Pentest-Everything__work-in-progress) -- from The-Viper-One/Pentest-Everything
+- [17InternsAndHROnTheDomainController](challenges/active-directory/WriteUps__17InternsAndHROnTheDomainController) -- from Ednas/WriteUps
+- [18LinuxAdministration201](challenges/active-directory/WriteUps__18LinuxAdministration201) -- from Ednas/WriteUps
+- [23LocalAdminNoMore-SecurityByDesign](challenges/active-directory/WriteUps__23LocalAdminNoMore-SecurityByDesign) -- from Ednas/WriteUps
+- [25InsiderThreat](challenges/active-directory/WriteUps__25InsiderThreat) -- from Ednas/WriteUps
+- [26PenetrationTesting-Passwords](challenges/active-directory/WriteUps__26PenetrationTesting-Passwords) -- from Ednas/WriteUps
+- [33FirewallUpdate](challenges/active-directory/WriteUps__33FirewallUpdate) -- from Ednas/WriteUps
+- [NICEChallenge](challenges/active-directory/WriteUps__NICEChallenge) -- from Ednas/WriteUps
+- [enum](challenges/active-directory/pentest-labs-writeups__enum) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [management](challenges/active-directory/pentest-labs-writeups__management) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Active-Directory-Basics](challenges/active-directory/tryhackme-ctf__Active-Directory-Basics) -- from edoardottt/tryhackme-ctf
+- [Attacking-Kerberos](challenges/active-directory/tryhackme-ctf__Attacking-Kerberos) -- from edoardottt/tryhackme-ctf
+- [Attacktive-Directory](challenges/active-directory/tryhackme-ctf__Attacktive-Directory) -- from edoardottt/tryhackme-ctf
+- [Day-24-Learning_From_The_Grinch](challenges/active-directory/tryhackme-ctf__Day-24-Learning_From_The_Grinch) -- from edoardottt/tryhackme-ctf
+- [Intro-to-Windows](challenges/active-directory/tryhackme-ctf__Intro-to-Windows) -- from edoardottt/tryhackme-ctf
+- [John-The-Ripper](challenges/active-directory/tryhackme-ctf__John-The-Ripper) -- from edoardottt/tryhackme-ctf
+- [Persistence](challenges/active-directory/tryhackme-ctf__Persistence) -- from edoardottt/tryhackme-ctf
+- [What-the-Shell?](challenges/active-directory/tryhackme-ctf__What-the-Shell) -- from edoardottt/tryhackme-ctf
+- [Windows-PrivEsc](challenges/active-directory/tryhackme-ctf__Windows-PrivEsc) -- from edoardottt/tryhackme-ctf
+- [Zero-Logon](challenges/active-directory/tryhackme-ctf__Zero-Logon) -- from edoardottt/tryhackme-ctf
+- [CORPORATE.LOCAL](challenges/active-directory/writeUp__CORPORATE.LOCAL) -- from kurohat/writeUp
+- [NOTE](challenges/active-directory/writeUp__NOTE) -- from kurohat/writeUp
+- [THROWBACK.LOCAL](challenges/active-directory/writeUp__THROWBACK.LOCAL) -- from kurohat/writeUp
+- [ad](challenges/active-directory/writeUp__ad) -- from kurohat/writeUp
+
+### web (120)
+
+- [AudioEdit](challenges/web/CTF-Writeups__AudioEdit) -- from sarperavci/CTF-Writeups
+- [twomillion](challenges/web/CTF-Writeups__twomillion) -- from sarperavci/CTF-Writeups
+- [Bobby's Bistro](challenges/web/CTFChall-Writeups__Bobby_s_Bistro) -- from Ciyah/CTFChall-Writeups
+- [CitiSmart](challenges/web/CTFChall-Writeups__CitiSmart) -- from Ciyah/CTFChall-Writeups
+- [Criticalops](challenges/web/CTFChall-Writeups__Criticalops) -- from Ciyah/CTFChall-Writeups
+- [Desires](challenges/web/CTFChall-Writeups__Desires) -- from Ciyah/CTFChall-Writeups
+- [DoxPit](challenges/web/CTFChall-Writeups__DoxPit) -- from Ciyah/CTFChall-Writeups
+- [Flag Command](challenges/web/CTFChall-Writeups__Flag_Command) -- from Ciyah/CTFChall-Writeups
+- [JerryTok](challenges/web/CTFChall-Writeups__JerryTok) -- from Ciyah/CTFChall-Writeups
+- [JinjaCare](challenges/web/CTFChall-Writeups__JinjaCare) -- from Ciyah/CTFChall-Writeups
+- [NeoVault](challenges/web/CTFChall-Writeups__NeoVault) -- from Ciyah/CTFChall-Writeups
+- [NextPath](challenges/web/CTFChall-Writeups__NextPath) -- from Ciyah/CTFChall-Writeups
+- [Nomad Notes](challenges/web/CTFChall-Writeups__Nomad_Notes) -- from Ciyah/CTFChall-Writeups
+- [Notebook Converter Pro](challenges/web/CTFChall-Writeups__Notebook_Converter_Pro) -- from Ciyah/CTFChall-Writeups
+- [Offlinea](challenges/web/CTFChall-Writeups__Offlinea) -- from Ciyah/CTFChall-Writeups
+- [OpenSecret](challenges/web/CTFChall-Writeups__OpenSecret) -- from Ciyah/CTFChall-Writeups
+- [PHault](challenges/web/CTFChall-Writeups__PHault) -- from Ciyah/CTFChall-Writeups
+- [ReactOOPS](challenges/web/CTFChall-Writeups__ReactOOPS) -- from Ciyah/CTFChall-Writeups
+- [SSOS](challenges/web/CTFChall-Writeups__SSOS) -- from Ciyah/CTFChall-Writeups
+- [Sattrack](challenges/web/CTFChall-Writeups__Sattrack) -- from Ciyah/CTFChall-Writeups
+- [ScreenCrack](challenges/web/CTFChall-Writeups__ScreenCrack) -- from Ciyah/CTFChall-Writeups
+- [Secure Notes](challenges/web/CTFChall-Writeups__Secure_Notes) -- from Ciyah/CTFChall-Writeups
+- [Space Explorer](challenges/web/CTFChall-Writeups__Space_Explorer) -- from Ciyah/CTFChall-Writeups
+- [SpeedNet](challenges/web/CTFChall-Writeups__SpeedNet) -- from Ciyah/CTFChall-Writeups
+- [Spookifier](challenges/web/CTFChall-Writeups__Spookifier) -- from Ciyah/CTFChall-Writeups
+- [app](challenges/web/CTFChall-Writeups__app) -- from Ciyah/CTFChall-Writeups
+- [readonce](challenges/web/CTFChall-Writeups__readonce) -- from Ciyah/CTFChall-Writeups
+- [readonce-revenge](challenges/web/CTFChall-Writeups__readonce-revenge) -- from Ciyah/CTFChall-Writeups
+- [source](challenges/web/CTFChall-Writeups__source) -- from Ciyah/CTFChall-Writeups
+- [source](challenges/web/CTFChall-Writeups__source-2) -- from Ciyah/CTFChall-Writeups
+- [web_bobbys_bistro](challenges/web/CTFChall-Writeups__web_bobbys_bistro) -- from Ciyah/CTFChall-Writeups
+- [web_offlinea](challenges/web/CTFChall-Writeups__web_offlinea) -- from Ciyah/CTFChall-Writeups
+- [1.VulnBegin](challenges/web/CTFs__1.VulnBegin) -- from Adamkadaban/CTFs
+- [2.VulnLawyers](challenges/web/CTFs__2.VulnLawyers) -- from Adamkadaban/CTFs
+- [AdventOfCyber2](challenges/web/CTFs__AdventOfCyber2) -- from Adamkadaban/CTFs
+- [Agent T](challenges/web/CTFs__Agent_T) -- from Adamkadaban/CTFs
+- [Capture](challenges/web/CTFs__Capture) -- from Adamkadaban/CTFs
+- [Day_05](challenges/web/CTFs__Day_05) -- from Adamkadaban/CTFs
+- [Day_13](challenges/web/CTFs__Day_13) -- from Adamkadaban/CTFs
+- [GET aHEAD](challenges/web/CTFs__GET_aHEAD) -- from Adamkadaban/CTFs
+- [Lens of Truth](challenges/web/CTFs__Lens_of_Truth) -- from Adamkadaban/CTFs
+- [MatchTheRegex](challenges/web/CTFs__MatchTheRegex) -- from Adamkadaban/CTFs
+- [More SQLi](challenges/web/CTFs__More_SQLi) -- from Adamkadaban/CTFs
+- [No Sandbox](challenges/web/CTFs__No_Sandbox) -- from Adamkadaban/CTFs
+- [PeaCTF 2020 29514edc84b44444b4806a6808a3fc68](challenges/web/CTFs__PeaCTF_2020_29514edc84b44444b4806a6808a3fc68) -- from Adamkadaban/CTFs
+- [Photobomb](challenges/web/CTFs__Photobomb) -- from Adamkadaban/CTFs
+- [SSTI_Labs](challenges/web/CTFs__SSTI_Labs) -- from Adamkadaban/CTFs
+- [Superhacker part 1](challenges/web/CTFs__Superhacker_part_1) -- from Adamkadaban/CTFs
+- [Traefik](challenges/web/CTFs__Traefik) -- from Adamkadaban/CTFs
+- [cybergrabs](challenges/web/CTFs__cybergrabs) -- from Adamkadaban/CTFs
+- [findme](challenges/web/CTFs__findme) -- from Adamkadaban/CTFs
+- [robots](challenges/web/CTFs__robots) -- from Adamkadaban/CTFs
+- [traverse 1](challenges/web/CTFs__traverse_1) -- from Adamkadaban/CTFs
+- [whitespace](challenges/web/CTFs__whitespace) -- from Adamkadaban/CTFs
+- [CVE-2025-69212-Authenticated-RCE-PoC](challenges/web/pentest-labs-writeups__CVE-2025-69212-Authenticated-RCE-PoC) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Hashgate](challenges/web/pentest-labs-writeups__Hashgate) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Irish_name_repo](challenges/web/pentest-labs-writeups__Irish_name_repo) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Jauth](challenges/web/pentest-labs-writeups__Jauth) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Java_Code_Analysis](challenges/web/pentest-labs-writeups__Java_Code_Analysis) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [JinjaCare](challenges/web/pentest-labs-writeups__JinjaCare) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [MakeSense](challenges/web/pentest-labs-writeups__MakeSense) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [No_FA](challenges/web/pentest-labs-writeups__No_FA) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [No_Sql_Injection](challenges/web/pentest-labs-writeups__No_Sql_Injection) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [SOAP](challenges/web/pentest-labs-writeups__SOAP) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Secret_Box](challenges/web/pentest-labs-writeups__Secret_Box) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [SpeedNet](challenges/web/pentest-labs-writeups__SpeedNet) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [WebSockFish](challenges/web/pentest-labs-writeups__WebSockFish) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [byp4ss3d](challenges/web/pentest-labs-writeups__byp4ss3d) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [citismart](challenges/web/pentest-labs-writeups__citismart) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [crack_the_gate_2](challenges/web/pentest-labs-writeups__crack_the_gate_2) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [exploits](challenges/web/pentest-labs-writeups__exploits) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [fireflow](challenges/web/pentest-labs-writeups__fireflow) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [fool_the_lockout](challenges/web/pentest-labs-writeups__fool_the_lockout) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [nomad_notes](challenges/web/pentest-labs-writeups__nomad_notes) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [sachinart](challenges/web/pentest-labs-writeups__sachinart) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [screencrack](challenges/web/pentest-labs-writeups__screencrack) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [serial](challenges/web/pentest-labs-writeups__serial) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [sql_direct](challenges/web/pentest-labs-writeups__sql_direct) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [sql_map1](challenges/web/pentest-labs-writeups__sql_map1) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [startup_company](challenges/web/pentest-labs-writeups__startup_company) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [web_offlinea](challenges/web/pentest-labs-writeups__web_offlinea) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [web_secure_notes](challenges/web/pentest-labs-writeups__web_secure_notes) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Authenticate](challenges/web/tryhackme-ctf__Authenticate) -- from edoardottt/tryhackme-ctf
+- [Avengers-Blog](challenges/web/tryhackme-ctf__Avengers-Blog) -- from edoardottt/tryhackme-ctf
+- [Burp-Suite](challenges/web/tryhackme-ctf__Burp-Suite) -- from edoardottt/tryhackme-ctf
+- [Cross-site-Scripting](challenges/web/tryhackme-ctf__Cross-site-Scripting) -- from edoardottt/tryhackme-ctf
+- [Day-01-A_Christmas_Crisis](challenges/web/tryhackme-ctf__Day-01-A_Christmas_Crisis) -- from edoardottt/tryhackme-ctf
+- [Day-01-Save_The_Gifts](challenges/web/tryhackme-ctf__Day-01-Save_The_Gifts) -- from edoardottt/tryhackme-ctf
+- [Day-02-Elf_HR_Problems](challenges/web/tryhackme-ctf__Day-02-Elf_HR_Problems) -- from edoardottt/tryhackme-ctf
+- [Day-04-Santas_Running_Behind](challenges/web/tryhackme-ctf__Day-04-Santas_Running_Behind) -- from edoardottt/tryhackme-ctf
+- [Day-05-Someone_stole_Santa's_gift_list!](challenges/web/tryhackme-ctf__Day-05-Someone_stole_Santa_s_gift_list) -- from edoardottt/tryhackme-ctf
+- [Day-06-Be_careful_with_what_you_wish_on_a_Christmas_night](challenges/web/tryhackme-ctf__Day-06-Be_careful_with_what_you_wish_on_a_Christmas_night) -- from edoardottt/tryhackme-ctf
+- [Day-06-Patch_Management_Is_Hard](challenges/web/tryhackme-ctf__Day-06-Patch_Management_Is_Hard) -- from edoardottt/tryhackme-ctf
+- [Day-07-Migration_Without_Security](challenges/web/tryhackme-ctf__Day-07-Migration_Without_Security) -- from edoardottt/tryhackme-ctf
+- [Day-10-Dont-be-sElfish](challenges/web/tryhackme-ctf__Day-10-Dont-be-sElfish) -- from edoardottt/tryhackme-ctf
+- [Day-13-Coal_for_Christmas](challenges/web/tryhackme-ctf__Day-13-Coal_for_Christmas) -- from edoardottt/tryhackme-ctf
+- [Day-19-The_Naughty_or_Nice_List](challenges/web/tryhackme-ctf__Day-19-The_Naughty_or_Nice_List) -- from edoardottt/tryhackme-ctf
+- [Day-24-The_Trial_Before_Christmas](challenges/web/tryhackme-ctf__Day-24-The_Trial_Before_Christmas) -- from edoardottt/tryhackme-ctf
+- [Erit-Securus-I](challenges/web/tryhackme-ctf__Erit-Securus-I) -- from edoardottt/tryhackme-ctf
+- [Intro-PoC-Scripting](challenges/web/tryhackme-ctf__Intro-PoC-Scripting) -- from edoardottt/tryhackme-ctf
+- [Introduction-to-Django](challenges/web/tryhackme-ctf__Introduction-to-Django) -- from edoardottt/tryhackme-ctf
+- [JavaScript-Basics](challenges/web/tryhackme-ctf__JavaScript-Basics) -- from edoardottt/tryhackme-ctf
+- [LFI-Basics](challenges/web/tryhackme-ctf__LFI-Basics) -- from edoardottt/tryhackme-ctf
+- [LazyAdmin](challenges/web/tryhackme-ctf__LazyAdmin) -- from edoardottt/tryhackme-ctf
+- [OWASP-Juice-Shop](challenges/web/tryhackme-ctf__OWASP-Juice-Shop) -- from edoardottt/tryhackme-ctf
+- [OWASP-Top-10](challenges/web/tryhackme-ctf__OWASP-Top-10) -- from edoardottt/tryhackme-ctf
+- [Overpass](challenges/web/tryhackme-ctf__Overpass) -- from edoardottt/tryhackme-ctf
+- [SSRF](challenges/web/tryhackme-ctf__SSRF) -- from edoardottt/tryhackme-ctf
+- [Upload-Vulnerabilities](challenges/web/tryhackme-ctf__Upload-Vulnerabilities) -- from edoardottt/tryhackme-ctf
+- [Web-Scanning](challenges/web/tryhackme-ctf__Web-Scanning) -- from edoardottt/tryhackme-ctf
+- [XXE](challenges/web/tryhackme-ctf__XXE) -- from edoardottt/tryhackme-ctf
+- [ZTH:-Obscure-Web-Vulns](challenges/web/tryhackme-ctf__ZTH_-Obscure-Web-Vulns) -- from edoardottt/tryhackme-ctf
+- [ZTH:-Web_2](challenges/web/tryhackme-ctf__ZTH_-Web_2) -- from edoardottt/tryhackme-ctf
+- [ftp](challenges/web/tryhackme-ctf__ftp) -- from edoardottt/tryhackme-ctf
+- [iOS-Forensics](challenges/web/tryhackme-ctf__iOS-Forensics) -- from edoardottt/tryhackme-ctf
+- [AdventOfCyber](challenges/web/writeUp__AdventOfCyber) -- from kurohat/writeUp
+- [AdventOfCyber2](challenges/web/writeUp__AdventOfCyber2) -- from kurohat/writeUp
+- [EZ](challenges/web/writeUp__EZ) -- from kurohat/writeUp
+- [Medium](challenges/web/writeUp__Medium) -- from kurohat/writeUp
+- [PortSwigger](challenges/web/writeUp__PortSwigger) -- from kurohat/writeUp
+
+### pwn (42)
+
+- [Arms roped](challenges/pwn/CTFChall-Writeups__Arms_roped) -- from Ciyah/CTFChall-Writeups
+- [Evil Corp](challenges/pwn/CTFChall-Writeups__Evil_Corp) -- from Ciyah/CTFChall-Writeups
+- [Execute](challenges/pwn/CTFChall-Writeups__Execute) -- from Ciyah/CTFChall-Writeups
+- [Forks and Knives](challenges/pwn/CTFChall-Writeups__Forks_and_Knives) -- from Ciyah/CTFChall-Writeups
+- [Funkynator](challenges/pwn/CTFChall-Writeups__Funkynator) -- from Ciyah/CTFChall-Writeups
+- [KHP Protocol](challenges/pwn/CTFChall-Writeups__KHP_Protocol) -- from Ciyah/CTFChall-Writeups
+- [Restaurant](challenges/pwn/CTFChall-Writeups__Restaurant) -- from Ciyah/CTFChall-Writeups
+- [Scanner](challenges/pwn/CTFChall-Writeups__Scanner) -- from Ciyah/CTFChall-Writeups
+- [TicTacToed](challenges/pwn/CTFChall-Writeups__TicTacToed) -- from Ciyah/CTFChall-Writeups
+- [Under the web](challenges/pwn/CTFChall-Writeups__Under_the_web) -- from Ciyah/CTFChall-Writeups
+- [You know 0xDiablos](challenges/pwn/CTFChall-Writeups__You_know_0xDiablos) -- from Ciyah/CTFChall-Writeups
+- [Zigzag](challenges/pwn/CTFChall-Writeups__Zigzag) -- from Ciyah/CTFChall-Writeups
+- [portaloo](challenges/pwn/CTFChall-Writeups__portaloo) -- from Ciyah/CTFChall-Writeups
+- [r0bob1rd](challenges/pwn/CTFChall-Writeups__r0bob1rd) -- from Ciyah/CTFChall-Writeups
+- [Actually not guessy](challenges/pwn/CTFs__Actually_not_guessy) -- from Adamkadaban/CTFs
+- [Binary Gauntlet 0](challenges/pwn/CTFs__Binary_Gauntlet_0) -- from Adamkadaban/CTFs
+- [Binary Gauntlet 1](challenges/pwn/CTFs__Binary_Gauntlet_1) -- from Adamkadaban/CTFs
+- [CVE-XXXX-XXXX](challenges/pwn/CTFs__CVE-XXXX-XXXX) -- from Adamkadaban/CTFs
+- [Feast](challenges/pwn/CTFs__Feast) -- from Adamkadaban/CTFs
+- [Grandpa](challenges/pwn/CTFs__Grandpa) -- from Adamkadaban/CTFs
+- [Here's a LIBC](challenges/pwn/CTFs__Here_s_a_LIBC) -- from Adamkadaban/CTFs
+- [Level 1 Spellcode](challenges/pwn/CTFs__Level_1_Spellcode) -- from Adamkadaban/CTFs
+- [Log Me In!](challenges/pwn/CTFs__Log_Me_In) -- from Adamkadaban/CTFs
+- [bof1](challenges/pwn/CTFs__bof1) -- from Adamkadaban/CTFs
+- [bof2](challenges/pwn/CTFs__bof2) -- from Adamkadaban/CTFs
+- [bof3](challenges/pwn/CTFs__bof3) -- from Adamkadaban/CTFs
+- [buffer overflow 0](challenges/pwn/CTFs__buffer_overflow_0) -- from Adamkadaban/CTFs
+- [buffer overflow 1](challenges/pwn/CTFs__buffer_overflow_1) -- from Adamkadaban/CTFs
+- [buffer overflow 2](challenges/pwn/CTFs__buffer_overflow_2) -- from Adamkadaban/CTFs
+- [buffer overflow 3](challenges/pwn/CTFs__buffer_overflow_3) -- from Adamkadaban/CTFs
+- [filtered-shellcode](challenges/pwn/CTFs__filtered-shellcode) -- from Adamkadaban/CTFs
+- [flag leak](challenges/pwn/CTFs__flag_leak) -- from Adamkadaban/CTFs
+- [heap0](challenges/pwn/CTFs__heap0) -- from Adamkadaban/CTFs
+- [helpme](challenges/pwn/CTFs__helpme) -- from Adamkadaban/CTFs
+- [mem_test](challenges/pwn/CTFs__mem_test) -- from Adamkadaban/CTFs
+- [remenissions-work](challenges/pwn/CTFs__remenissions-work) -- from Adamkadaban/CTFs
+- [remenissions-work](challenges/pwn/CTFs__remenissions-work-2) -- from Adamkadaban/CTFs
+- [ret](challenges/pwn/CTFs__ret) -- from Adamkadaban/CTFs
+- [stack0 pt1](challenges/pwn/CTFs__stack0_pt1) -- from Adamkadaban/CTFs
+- [two-sum](challenges/pwn/CTFs__two-sum) -- from Adamkadaban/CTFs
+- [Day-17-ReverseELFneering](challenges/pwn/tryhackme-ctf__Day-17-ReverseELFneering) -- from edoardottt/tryhackme-ctf
+- [MS17-010](challenges/pwn/writeups__MS17-010) -- from 7h3rAm/writeups
+
+### reverse-engineering (45)
+
+- [Cryptoversing](challenges/reverse-engineering/CTF-Writeups__Cryptoversing) -- from sarperavci/CTF-Writeups
+- [ARMs Race](challenges/reverse-engineering/CTFChall-Writeups__ARMs_Race) -- from Ciyah/CTFChall-Writeups
+- [Behind the Scenes](challenges/reverse-engineering/CTFChall-Writeups__Behind_the_Scenes) -- from Ciyah/CTFChall-Writeups
+- [Bypass](challenges/reverse-engineering/CTFChall-Writeups__Bypass) -- from Ciyah/CTFChall-Writeups
+- [Coffee Invocation](challenges/reverse-engineering/CTFChall-Writeups__Coffee_Invocation) -- from Ciyah/CTFChall-Writeups
+- [Cyberpsychosis](challenges/reverse-engineering/CTFChall-Writeups__Cyberpsychosis) -- from Ciyah/CTFChall-Writeups
+- [Debugme](challenges/reverse-engineering/CTFChall-Writeups__Debugme) -- from Ciyah/CTFChall-Writeups
+- [Exatlon](challenges/reverse-engineering/CTFChall-Writeups__Exatlon) -- from Ciyah/CTFChall-Writeups
+- [FFModule](challenges/reverse-engineering/CTFChall-Writeups__FFModule) -- from Ciyah/CTFChall-Writeups
+- [GameLoader](challenges/reverse-engineering/CTFChall-Writeups__GameLoader) -- from Ciyah/CTFChall-Writeups
+- [HILLarious](challenges/reverse-engineering/CTFChall-Writeups__HILLarious) -- from Ciyah/CTFChall-Writeups
+- [Obscure](challenges/reverse-engineering/CTFChall-Writeups__Obscure) -- from Ciyah/CTFChall-Writeups
+- [Partial Encryption](challenges/reverse-engineering/CTFChall-Writeups__Partial_Encryption) -- from Ciyah/CTFChall-Writeups
+- [RAuth](challenges/reverse-engineering/CTFChall-Writeups__RAuth) -- from Ciyah/CTFChall-Writeups
+- [Rega's Town](challenges/reverse-engineering/CTFChall-Writeups__Rega_s_Town) -- from Ciyah/CTFChall-Writeups
+- [SEPC](challenges/reverse-engineering/CTFChall-Writeups__SEPC) -- from Ciyah/CTFChall-Writeups
+- [Simple Encryptor](challenges/reverse-engineering/CTFChall-Writeups__Simple_Encryptor) -- from Ciyah/CTFChall-Writeups
+- [SpookyPass](challenges/reverse-engineering/CTFChall-Writeups__SpookyPass) -- from Ciyah/CTFChall-Writeups
+- [Virtually Mad](challenges/reverse-engineering/CTFChall-Writeups__Virtually_Mad) -- from Ciyah/CTFChall-Writeups
+- [Wayback](challenges/reverse-engineering/CTFChall-Writeups__Wayback) -- from Ciyah/CTFChall-Writeups
+- [Aunt Mildred](challenges/reverse-engineering/CTFs__Aunt_Mildred) -- from Adamkadaban/CTFs
+- [Baby's First ELF](challenges/reverse-engineering/CTFs__Baby_s_First_ELF) -- from Adamkadaban/CTFs
+- [Conditional 1](challenges/reverse-engineering/CTFs__Conditional_1) -- from Adamkadaban/CTFs
+- [Conditional 2](challenges/reverse-engineering/CTFs__Conditional_2) -- from Adamkadaban/CTFs
+- [Easy as GDB](challenges/reverse-engineering/CTFs__Easy_as_GDB) -- from Adamkadaban/CTFs
+- [Hackappa_rev](challenges/reverse-engineering/CTFs__Hackappa_rev) -- from Adamkadaban/CTFs
+- [Key2success](challenges/reverse-engineering/CTFs__Key2success) -- from Adamkadaban/CTFs
+- [Loop 1](challenges/reverse-engineering/CTFs__Loop_1) -- from Adamkadaban/CTFs
+- [Not Found](challenges/reverse-engineering/CTFs__Not_Found) -- from Adamkadaban/CTFs
+- [Powershelly](challenges/reverse-engineering/CTFs__Powershelly) -- from Adamkadaban/CTFs
+- [Proprietary](challenges/reverse-engineering/CTFs__Proprietary) -- from Adamkadaban/CTFs
+- [Recursive](challenges/reverse-engineering/CTFs__Recursive) -- from Adamkadaban/CTFs
+- [ReversingELF](challenges/reverse-engineering/CTFs__ReversingELF) -- from Adamkadaban/CTFs
+- [Sanity Rev](challenges/reverse-engineering/CTFs__Sanity_Rev) -- from Adamkadaban/CTFs
+- [Virtual Machine 0](challenges/reverse-engineering/CTFs__Virtual_Machine_0) -- from Adamkadaban/CTFs
+- [Warm-up](challenges/reverse-engineering/CTFs__Warm-up) -- from Adamkadaban/CTFs
+- [break_the_calculator](challenges/reverse-engineering/CTFs__break_the_calculator) -- from Adamkadaban/CTFs
+- [concrete_trap](challenges/reverse-engineering/CTFs__concrete_trap) -- from Adamkadaban/CTFs
+- [crackme-py](challenges/reverse-engineering/CTFs__crackme-py) -- from Adamkadaban/CTFs
+- [eXclusive club](challenges/reverse-engineering/CTFs__eXclusive_club) -- from Adamkadaban/CTFs
+- [keygenme-py](challenges/reverse-engineering/CTFs__keygenme-py) -- from Adamkadaban/CTFs
+- [spaghetti](challenges/reverse-engineering/CTFs__spaghetti) -- from Adamkadaban/CTFs
+- [unchallenging](challenges/reverse-engineering/CTFs__unchallenging) -- from Adamkadaban/CTFs
+- [CC:-Radare2](challenges/reverse-engineering/tryhackme-ctf__CC_-Radare2) -- from edoardottt/tryhackme-ctf
+- [Day-18-The_Bits_of_Christmas](challenges/reverse-engineering/tryhackme-ctf__Day-18-The_Bits_of_Christmas) -- from edoardottt/tryhackme-ctf
+
+### crypto (67)
+
+- [Linear_feedback_Shift_Register](challenges/crypto/CTF-Writeups__Linear_feedback_Shift_Register) -- from sarperavci/CTF-Writeups
+- [files](challenges/crypto/CTF-Writeups__files) -- from sarperavci/CTF-Writeups
+- [rsa_noob](challenges/crypto/CTF-Writeups__rsa_noob) -- from sarperavci/CTF-Writeups
+- [so_many_64s](challenges/crypto/CTF-Writeups__so_many_64s) -- from sarperavci/CTF-Writeups
+- [AliEnS](challenges/crypto/CTFChall-Writeups__AliEnS) -- from Ciyah/CTFChall-Writeups
+- [BabyEncryption](challenges/crypto/CTFChall-Writeups__BabyEncryption) -- from Ciyah/CTFChall-Writeups
+- [Baby Time Capsule](challenges/crypto/CTFChall-Writeups__Baby_Time_Capsule) -- from Ciyah/CTFChall-Writeups
+- [Birds of randomness](challenges/crypto/CTFChall-Writeups__Birds_of_randomness) -- from Ciyah/CTFChall-Writeups
+- [Broken Decryptor](challenges/crypto/CTFChall-Writeups__Broken_Decryptor) -- from Ciyah/CTFChall-Writeups
+- [Cusp of No Return](challenges/crypto/CTFChall-Writeups__Cusp_of_No_Return) -- from Ciyah/CTFChall-Writeups
+- [Diagnostic](challenges/crypto/CTFChall-Writeups__Diagnostic) -- from Ciyah/CTFChall-Writeups
+- [Embryonic Plant](challenges/crypto/CTFChall-Writeups__Embryonic_Plant) -- from Ciyah/CTFChall-Writeups
+- [Fishy HTTP](challenges/crypto/CTFChall-Writeups__Fishy_HTTP) -- from Ciyah/CTFChall-Writeups
+- [Gap Gap](challenges/crypto/CTFChall-Writeups__Gap_Gap) -- from Ciyah/CTFChall-Writeups
+- [Grand Line Ledger ](challenges/crypto/CTFChall-Writeups__Grand_Line_Ledger) -- from Ciyah/CTFChall-Writeups
+- [Neon Core](challenges/crypto/CTFChall-Writeups__Neon_Core) -- from Ciyah/CTFChall-Writeups
+- [POPO](challenges/crypto/CTFChall-Writeups__POPO) -- from Ciyah/CTFChall-Writeups
+- [Protein Cookies](challenges/crypto/CTFChall-Writeups__Protein_Cookies) -- from Ciyah/CTFChall-Writeups
+- [Quantum-Safe](challenges/crypto/CTFChall-Writeups__Quantum-Safe) -- from Ciyah/CTFChall-Writeups
+- [RSAisEasy](challenges/crypto/CTFChall-Writeups__RSAisEasy) -- from Ciyah/CTFChall-Writeups
+- [Rhome](challenges/crypto/CTFChall-Writeups__Rhome) -- from Ciyah/CTFChall-Writeups
+- [Shambles](challenges/crypto/CTFChall-Writeups__Shambles) -- from Ciyah/CTFChall-Writeups
+- [Shamir's Secret](challenges/crypto/CTFChall-Writeups__Shamir_s_Secret) -- from Ciyah/CTFChall-Writeups
+- [Surprise Factor](challenges/crypto/CTFChall-Writeups__Surprise_Factor) -- from Ciyah/CTFChall-Writeups
+- [Suspicious Threat](challenges/crypto/CTFChall-Writeups__Suspicious_Threat) -- from Ciyah/CTFChall-Writeups
+- [The Last Dance](challenges/crypto/CTFChall-Writeups__The_Last_Dance) -- from Ciyah/CTFChall-Writeups
+- [The One Hit Wonder](challenges/crypto/CTFChall-Writeups__The_One_Hit_Wonder) -- from Ciyah/CTFChall-Writeups
+- [TrueSecret](challenges/crypto/CTFChall-Writeups__TrueSecret) -- from Ciyah/CTFChall-Writeups
+- [Twisted Entanglement](challenges/crypto/CTFChall-Writeups__Twisted_Entanglement) -- from Ciyah/CTFChall-Writeups
+- [YALM](challenges/crypto/CTFChall-Writeups__YALM) -- from Ciyah/CTFChall-Writeups
+- [infosekurus query](challenges/crypto/CTFChall-Writeups__infosekurus_query) -- from Ciyah/CTFChall-Writeups
+- [mysterybox](challenges/crypto/CTFChall-Writeups__mysterybox) -- from Ciyah/CTFChall-Writeups
+- [rev_wayback](challenges/crypto/CTFChall-Writeups__rev_wayback) -- from Ciyah/CTFChall-Writeups
+- [tap tap](challenges/crypto/CTFChall-Writeups__tap_tap) -- from Ciyah/CTFChall-Writeups
+- [xorxorxor](challenges/crypto/CTFChall-Writeups__xorxorxor) -- from Ciyah/CTFChall-Writeups
+- [Apple Cider Vinegar](challenges/crypto/CTFs__Apple_Cider_Vinegar) -- from Adamkadaban/CTFs
+- [Baby RSA](challenges/crypto/CTFs__Baby_RSA) -- from Adamkadaban/CTFs
+- [BrixelCTF](challenges/crypto/CTFs__BrixelCTF) -- from Adamkadaban/CTFs
+- [Caesar, Salad Edition](challenges/crypto/CTFs__Caesar_Salad_Edition) -- from Adamkadaban/CTFs
+- [Dachshund Attacks](challenges/crypto/CTFs__Dachshund_Attacks) -- from Adamkadaban/CTFs
+- [Data Dump](challenges/crypto/CTFs__Data_Dump) -- from Adamkadaban/CTFs
+- [Exotic Bytes](challenges/crypto/CTFs__Exotic_Bytes) -- from Adamkadaban/CTFs
+- [Hand-Work](challenges/crypto/CTFs__Hand-Work) -- from Adamkadaban/CTFs
+- [HideToSee](challenges/crypto/CTFs__HideToSee) -- from Adamkadaban/CTFs
+- [Mini RSA](challenges/crypto/CTFs__Mini_RSA) -- from Adamkadaban/CTFs
+- [NSA Backdoor](challenges/crypto/CTFs__NSA_Backdoor) -- from Adamkadaban/CTFs
+- [RSA -1-](challenges/crypto/CTFs__RSA_-1-) -- from Adamkadaban/CTFs
+- [ReadMyCert](challenges/crypto/CTFs__ReadMyCert) -- from Adamkadaban/CTFs
+- [Rick and morty on adventure](challenges/crypto/CTFs__Rick_and_morty_on_adventure) -- from Adamkadaban/CTFs
+- [Sum-O-Primes](challenges/crypto/CTFs__Sum-O-Primes) -- from Adamkadaban/CTFs
+- [Teen RSA](challenges/crypto/CTFs__Teen_RSA) -- from Adamkadaban/CTFs
+- [Very Smooth](challenges/crypto/CTFs__Very_Smooth) -- from Adamkadaban/CTFs
+- [What are Semaphores processes](challenges/crypto/CTFs__What_are_Semaphores_processes) -- from Adamkadaban/CTFs
+- [XtraORdinary](challenges/crypto/CTFs__XtraORdinary) -- from Adamkadaban/CTFs
+- [output](challenges/crypto/CTFs__output) -- from Adamkadaban/CTFs
+- [rotation](challenges/crypto/CTFs__rotation) -- from Adamkadaban/CTFs
+- [unary, binary](challenges/crypto/CTFs__unary_binary) -- from Adamkadaban/CTFs
+- [valhalla](challenges/crypto/CTFs__valhalla) -- from Adamkadaban/CTFs
+- [visionary](challenges/crypto/CTFs__visionary) -- from Adamkadaban/CTFs
+- [Domino](challenges/crypto/pentest-labs-writeups__Domino) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Day-23-PowershELlF_Magic](challenges/crypto/tryhackme-ctf__Day-23-PowershELlF_Magic) -- from edoardottt/tryhackme-ctf
+- [Day-23-The_Grinch_strikes_again!](challenges/crypto/tryhackme-ctf__Day-23-The_Grinch_strikes_again) -- from edoardottt/tryhackme-ctf
+- [Encryption-Crypto-101](challenges/crypto/tryhackme-ctf__Encryption-Crypto-101) -- from edoardottt/tryhackme-ctf
+- [GamingServer](challenges/crypto/tryhackme-ctf__GamingServer) -- from edoardottt/tryhackme-ctf
+- [Hashing-Crypto_101](challenges/crypto/tryhackme-ctf__Hashing-Crypto_101) -- from edoardottt/tryhackme-ctf
+- [Linux-Strength-Training](challenges/crypto/tryhackme-ctf__Linux-Strength-Training) -- from edoardottt/tryhackme-ctf
+- [kenobi](challenges/crypto/tryhackme-ctf__kenobi) -- from edoardottt/tryhackme-ctf
+
+### forensics (51)
+
+- [Conduct Unbecoming](challenges/forensics/CTFChall-Writeups__Conduct_Unbecoming) -- from Ciyah/CTFChall-Writeups
+- [Exfiltration](challenges/forensics/CTFChall-Writeups__Exfiltration) -- from Ciyah/CTFChall-Writeups
+- [File Dump 01](challenges/forensics/CTFChall-Writeups__File_Dump_01) -- from Ciyah/CTFChall-Writeups
+- [Headshot](challenges/forensics/CTFChall-Writeups__Headshot) -- from Ciyah/CTFChall-Writeups
+- [Keep Digging ](challenges/forensics/CTFChall-Writeups__Keep_Digging) -- from Ciyah/CTFChall-Writeups
+- [Obscure](challenges/forensics/CTFChall-Writeups__Obscure) -- from Ciyah/CTFChall-Writeups
+- [PersistenceIsFutile](challenges/forensics/CTFChall-Writeups__PersistenceIsFutile) -- from Ciyah/CTFChall-Writeups
+- [RedTrails](challenges/forensics/CTFChall-Writeups__RedTrails) -- from Ciyah/CTFChall-Writeups
+- [Red Failure](challenges/forensics/CTFChall-Writeups__Red_Failure) -- from Ciyah/CTFChall-Writeups
+- [attckdef-handout](challenges/forensics/CTFChall-Writeups__attckdef-handout) -- from Ciyah/CTFChall-Writeups
+- [attckdef-revenge-handout](challenges/forensics/CTFChall-Writeups__attckdef-revenge-handout) -- from Ciyah/CTFChall-Writeups
+- [emo](challenges/forensics/CTFChall-Writeups__emo) -- from Ciyah/CTFChall-Writeups
+- [templates](challenges/forensics/CTFChall-Writeups__templates) -- from Ciyah/CTFChall-Writeups
+- [templates](challenges/forensics/CTFChall-Writeups__templates-2) -- from Ciyah/CTFChall-Writeups
+- [Black and White](challenges/forensics/CTFs__Black_and_White) -- from Adamkadaban/CTFs
+- [Brutus Killer](challenges/forensics/CTFs__Brutus_Killer) -- from Adamkadaban/CTFs
+- [Dumpster Diving](challenges/forensics/CTFs__Dumpster_Diving) -- from Adamkadaban/CTFs
+- [Flash](challenges/forensics/CTFs__Flash) -- from Adamkadaban/CTFs
+- [Keep Calm and CTF](challenges/forensics/CTFs__Keep_Calm_and_CTF) -- from Adamkadaban/CTFs
+- [Kill](challenges/forensics/CTFs__Kill) -- from Adamkadaban/CTFs
+- [Linux Help](challenges/forensics/CTFs__Linux_Help) -- from Adamkadaban/CTFs
+- [MSB](challenges/forensics/CTFs__MSB) -- from Adamkadaban/CTFs
+- [My Secret Stash](challenges/forensics/CTFs__My_Secret_Stash) -- from Adamkadaban/CTFs
+- [Obscurity](challenges/forensics/CTFs__Obscurity) -- from Adamkadaban/CTFs
+- [OhSINT](challenges/forensics/CTFs__OhSINT) -- from Adamkadaban/CTFs
+- [Peace](challenges/forensics/CTFs__Peace) -- from Adamkadaban/CTFs
+- [Suspicious Riddle](challenges/forensics/CTFs__Suspicious_Riddle) -- from Adamkadaban/CTFs
+- [Tay](challenges/forensics/CTFs__Tay) -- from Adamkadaban/CTFs
+- [Trivial Flag Transfer Protocol](challenges/forensics/CTFs__Trivial_Flag_Transfer_Protocol) -- from Adamkadaban/CTFs
+- [Wireshark twoo twooo two twoo](challenges/forensics/CTFs__Wireshark_twoo_twooo_two_twoo) -- from Adamkadaban/CTFs
+- [forensics](challenges/forensics/CTFs__forensics) -- from Adamkadaban/CTFs
+- [hideme](challenges/forensics/CTFs__hideme) -- from Adamkadaban/CTFs
+- [output](challenges/forensics/CTFs__output) -- from Adamkadaban/CTFs
+- [output](challenges/forensics/CTFs__output-2) -- from Adamkadaban/CTFs
+- [output](challenges/forensics/CTFs__output-3) -- from Adamkadaban/CTFs
+- [output](challenges/forensics/CTFs__output-4) -- from Adamkadaban/CTFs
+- [output](challenges/forensics/CTFs__output-5) -- from Adamkadaban/CTFs
+- [rabbit-hole](challenges/forensics/CTFs__rabbit-hole) -- from Adamkadaban/CTFs
+- [who is it](challenges/forensics/CTFs__who_is_it) -- from Adamkadaban/CTFs
+- [zip](challenges/forensics/CTFs__zip) -- from Adamkadaban/CTFs
+- [27ExecutableExcavation](challenges/forensics/WriteUps__27ExecutableExcavation) -- from Ednas/WriteUps
+- [Agent-Sudo](challenges/forensics/tryhackme-ctf__Agent-Sudo) -- from edoardottt/tryhackme-ctf
+- [CTF-collection-Vol.1](challenges/forensics/tryhackme-ctf__CTF-collection-Vol.1) -- from edoardottt/tryhackme-ctf
+- [Chill-Hack](challenges/forensics/tryhackme-ctf__Chill-Hack) -- from edoardottt/tryhackme-ctf
+- [Day-07-The_Grinch_Really_Did_Steal_Christmas](challenges/forensics/tryhackme-ctf__Day-07-The_Grinch_Really_Did_Steal_Christmas) -- from edoardottt/tryhackme-ctf
+- [Day-14-Where's Rudolph?](challenges/forensics/tryhackme-ctf__Day-14-Where_s_Rudolph) -- from edoardottt/tryhackme-ctf
+- [Geolocating-Images](challenges/forensics/tryhackme-ctf__Geolocating-Images) -- from edoardottt/tryhackme-ctf
+- [NIS-Linux_Part_I](challenges/forensics/tryhackme-ctf__NIS-Linux_Part_I) -- from edoardottt/tryhackme-ctf
+- [Overpass2-Hacked](challenges/forensics/tryhackme-ctf__Overpass2-Hacked) -- from edoardottt/tryhackme-ctf
+- [Startup](challenges/forensics/tryhackme-ctf__Startup) -- from edoardottt/tryhackme-ctf
+- [Wireshark-101](challenges/forensics/tryhackme-ctf__Wireshark-101) -- from edoardottt/tryhackme-ctf
+
+### privilege-escalation (46)
+
+- [Blogger](challenges/privilege-escalation/CTFs__Blogger) -- from Adamkadaban/CTFs
+- [Overpass 2 - Hacked](challenges/privilege-escalation/CTFs__Overpass_2_-_Hacked) -- from Adamkadaban/CTFs
+- [Permissions](challenges/privilege-escalation/CTFs__Permissions) -- from Adamkadaban/CTFs
+- [Quotient](challenges/privilege-escalation/CTFs__Quotient) -- from Adamkadaban/CTFs
+- [tomghost](challenges/privilege-escalation/CTFs__tomghost) -- from Adamkadaban/CTFs
+- [linux](challenges/privilege-escalation/Pentest-Everything__linux) -- from The-Viper-One/Pentest-Everything
+- [Linux PrivEsc](challenges/privilege-escalation/TryHackMe__Linux_PrivEsc) -- from migueltc13/TryHackMe
+- [linux-exploit-suggester-2](challenges/privilege-escalation/TryHackMe__linux-exploit-suggester-2) -- from migueltc13/TryHackMe
+- [CVE-2026-41651](challenges/privilege-escalation/pentest-labs-writeups__CVE-2026-41651) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Matryoshka](challenges/privilege-escalation/pentest-labs-writeups__Matryoshka) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [sudo-chwoot](challenges/privilege-escalation/pentest-labs-writeups__sudo-chwoot) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Anonymous](challenges/privilege-escalation/tryhackme-ctf__Anonymous) -- from edoardottt/tryhackme-ctf
+- [Bebop](challenges/privilege-escalation/tryhackme-ctf__Bebop) -- from edoardottt/tryhackme-ctf
+- [Bounty-Hacker](challenges/privilege-escalation/tryhackme-ctf__Bounty-Hacker) -- from edoardottt/tryhackme-ctf
+- [Brooklyn-Nine-Nine](challenges/privilege-escalation/tryhackme-ctf__Brooklyn-Nine-Nine) -- from edoardottt/tryhackme-ctf
+- [Brute-It](challenges/privilege-escalation/tryhackme-ctf__Brute-It) -- from edoardottt/tryhackme-ctf
+- [Common-Linux-Privesc](challenges/privilege-escalation/tryhackme-ctf__Common-Linux-Privesc) -- from edoardottt/tryhackme-ctf
+- [Cyborg](challenges/privilege-escalation/tryhackme-ctf__Cyborg) -- from edoardottt/tryhackme-ctf
+- [Day-11-The_Rogue_Gnome](challenges/privilege-escalation/tryhackme-ctf__Day-11-The_Rogue_Gnome) -- from edoardottt/tryhackme-ctf
+- [Gotta-Catch'em-All](challenges/privilege-escalation/tryhackme-ctf__Gotta-Catch_em-All) -- from edoardottt/tryhackme-ctf
+- [Hardening-Basics-Part-1](challenges/privilege-escalation/tryhackme-ctf__Hardening-Basics-Part-1) -- from edoardottt/tryhackme-ctf
+- [Jurassic-Park](challenges/privilege-escalation/tryhackme-ctf__Jurassic-Park) -- from edoardottt/tryhackme-ctf
+- [LFI](challenges/privilege-escalation/tryhackme-ctf__LFI) -- from edoardottt/tryhackme-ctf
+- [Linux-Challenges](challenges/privilege-escalation/tryhackme-ctf__Linux-Challenges) -- from edoardottt/tryhackme-ctf
+- [Linux:-Local-Enumeration](challenges/privilege-escalation/tryhackme-ctf__Linux_-Local-Enumeration) -- from edoardottt/tryhackme-ctf
+- [Pickle-Rick](challenges/privilege-escalation/tryhackme-ctf__Pickle-Rick) -- from edoardottt/tryhackme-ctf
+- [Res](challenges/privilege-escalation/tryhackme-ctf__Res) -- from edoardottt/tryhackme-ctf
+- [RootMe](challenges/privilege-escalation/tryhackme-ctf__RootMe) -- from edoardottt/tryhackme-ctf
+- [Skynet](challenges/privilege-escalation/tryhackme-ctf__Skynet) -- from edoardottt/tryhackme-ctf
+- [Wgel-CTF](challenges/privilege-escalation/tryhackme-ctf__Wgel-CTF) -- from edoardottt/tryhackme-ctf
+- [Year-of-the-Rabbit](challenges/privilege-escalation/tryhackme-ctf__Year-of-the-Rabbit) -- from edoardottt/tryhackme-ctf
+- [tomghost](challenges/privilege-escalation/tryhackme-ctf__tomghost) -- from edoardottt/tryhackme-ctf
+- [Hard](challenges/privilege-escalation/writeUp__Hard) -- from kurohat/writeUp
+- [LinuxPrivEsc](challenges/privilege-escalation/writeUp__LinuxPrivEsc) -- from kurohat/writeUp
+- [TryHackMe](challenges/privilege-escalation/writeUp__TryHackMe) -- from kurohat/writeUp
+- [vulnhub.billymadison1dot1](challenges/privilege-escalation/writeups__vulnhub.billymadison1dot1) -- from 7h3rAm/writeups
+- [vulnhub.bsidesvancouver2018workshop](challenges/privilege-escalation/writeups__vulnhub.bsidesvancouver2018workshop) -- from 7h3rAm/writeups
+- [vulnhub.escalatelinux](challenges/privilege-escalation/writeups__vulnhub.escalatelinux) -- from 7h3rAm/writeups
+- [vulnhub.kioptrix3](challenges/privilege-escalation/writeups__vulnhub.kioptrix3) -- from 7h3rAm/writeups
+- [vulnhub.kioptrix4](challenges/privilege-escalation/writeups__vulnhub.kioptrix4) -- from 7h3rAm/writeups
+- [vulnhub.linsecurity1](challenges/privilege-escalation/writeups__vulnhub.linsecurity1) -- from 7h3rAm/writeups
+- [vulnhub.lordoftheroot101](challenges/privilege-escalation/writeups__vulnhub.lordoftheroot101) -- from 7h3rAm/writeups
+- [vulnhub.misdirection1](challenges/privilege-escalation/writeups__vulnhub.misdirection1) -- from 7h3rAm/writeups
+- [vulnhub.quaoar](challenges/privilege-escalation/writeups__vulnhub.quaoar) -- from 7h3rAm/writeups
+- [vulnhub.sedna](challenges/privilege-escalation/writeups__vulnhub.sedna) -- from 7h3rAm/writeups
+- [vulnhub.vulnix](challenges/privilege-escalation/writeups__vulnhub.vulnix) -- from 7h3rAm/writeups
+
+### network (168)
+
+- [BoilCTF](challenges/network/CTF-Writeups__BoilCTF) -- from sarperavci/CTF-Writeups
+- [CyberLens](challenges/network/CTF-Writeups__CyberLens) -- from sarperavci/CTF-Writeups
+- [StuxCTF](challenges/network/CTF-Writeups__StuxCTF) -- from sarperavci/CTF-Writeups
+- [ultratech](challenges/network/CTF-Writeups__ultratech) -- from sarperavci/CTF-Writeups
+- [Bashed](challenges/network/CTFs__Bashed) -- from Adamkadaban/CTFs
+- [Beep](challenges/network/CTFs__Beep) -- from Adamkadaban/CTFs
+- [Blocky](challenges/network/CTFs__Blocky) -- from Adamkadaban/CTFs
+- [Blue](challenges/network/CTFs__Blue) -- from Adamkadaban/CTFs
+- [BountyHacker](challenges/network/CTFs__BountyHacker) -- from Adamkadaban/CTFs
+- [Brainpan 1](challenges/network/CTFs__Brainpan_1) -- from Adamkadaban/CTFs
+- [Busqueda](challenges/network/CTFs__Busqueda) -- from Adamkadaban/CTFs
+- [Devel](challenges/network/CTFs__Devel) -- from Adamkadaban/CTFs
+- [Flight](challenges/network/CTFs__Flight) -- from Adamkadaban/CTFs
+- [Granny](challenges/network/CTFs__Granny) -- from Adamkadaban/CTFs
+- [Inclusion](challenges/network/CTFs__Inclusion) -- from Adamkadaban/CTFs
+- [InfosecPrep](challenges/network/CTFs__InfosecPrep) -- from Adamkadaban/CTFs
+- [Jerry](challenges/network/CTFs__Jerry) -- from Adamkadaban/CTFs
+- [Lame](challenges/network/CTFs__Lame) -- from Adamkadaban/CTFs
+- [LazyAdmin](challenges/network/CTFs__LazyAdmin) -- from Adamkadaban/CTFs
+- [Legacy](challenges/network/CTFs__Legacy) -- from Adamkadaban/CTFs
+- [LookingGlass](challenges/network/CTFs__LookingGlass) -- from Adamkadaban/CTFs
+- [Mirai](challenges/network/CTFs__Mirai) -- from Adamkadaban/CTFs
+- [Netmon](challenges/network/CTFs__Netmon) -- from Adamkadaban/CTFs
+- [Optimum](challenges/network/CTFs__Optimum) -- from Adamkadaban/CTFs
+- [Overpass](challenges/network/CTFs__Overpass) -- from Adamkadaban/CTFs
+- [Overpass 3 - Hosting](challenges/network/CTFs__Overpass_3_-_Hosting) -- from Adamkadaban/CTFs
+- [PC](challenges/network/CTFs__PC) -- from Adamkadaban/CTFs
+- [PickleRick](challenges/network/CTFs__PickleRick) -- from Adamkadaban/CTFs
+- [RootMe](challenges/network/CTFs__RootMe) -- from Adamkadaban/CTFs
+- [Sense](challenges/network/CTFs__Sense) -- from Adamkadaban/CTFs
+- [Shocker](challenges/network/CTFs__Shocker) -- from Adamkadaban/CTFs
+- [Shoppy](challenges/network/CTFs__Shoppy) -- from Adamkadaban/CTFs
+- [Stocker](challenges/network/CTFs__Stocker) -- from Adamkadaban/CTFs
+- [TheCodCaper](challenges/network/CTFs__TheCodCaper) -- from Adamkadaban/CTFs
+- [Weasel](challenges/network/CTFs__Weasel) -- from Adamkadaban/CTFs
+- [Willow](challenges/network/CTFs__Willow) -- from Adamkadaban/CTFs
+- [Wonderland](challenges/network/CTFs__Wonderland) -- from Adamkadaban/CTFs
+- [b3dr0ck](challenges/network/CTFs__b3dr0ck) -- from Adamkadaban/CTFs
+- [everything](challenges/network/Pentest-Everything__everything) -- from The-Viper-One/Pentest-Everything
+- [linux](challenges/network/Pentest-Everything__linux) -- from The-Viper-One/Pentest-Everything
+- [linux](challenges/network/Pentest-Everything__linux-2) -- from The-Viper-One/Pentest-Everything
+- [linux](challenges/network/Pentest-Everything__linux-3) -- from The-Viper-One/Pentest-Everything
+- [linux](challenges/network/Pentest-Everything__linux-4) -- from The-Viper-One/Pentest-Everything
+- [to-do](challenges/network/Pentest-Everything__to-do) -- from The-Viper-One/Pentest-Everything
+- [windows](challenges/network/Pentest-Everything__windows) -- from The-Viper-One/Pentest-Everything
+- [windows](challenges/network/Pentest-Everything__windows-2) -- from The-Viper-One/Pentest-Everything
+- [windows-machines](challenges/network/Pentest-Everything__windows-machines) -- from The-Viper-One/Pentest-Everything
+- [Bounty Hacker](challenges/network/TryHackMe__Bounty_Hacker) -- from migueltc13/TryHackMe
+- [Lazy Admin](challenges/network/TryHackMe__Lazy_Admin) -- from migueltc13/TryHackMe
+- [Lian Yu](challenges/network/TryHackMe__Lian_Yu) -- from migueltc13/TryHackMe
+- [Pickle Rick](challenges/network/TryHackMe__Pickle_Rick) -- from migueltc13/TryHackMe
+- [RustScan](challenges/network/TryHackMe__RustScan) -- from migueltc13/TryHackMe
+- [Simple CTF](challenges/network/TryHackMe__Simple_CTF) -- from migueltc13/TryHackMe
+- [Vulnversity](challenges/network/TryHackMe__Vulnversity) -- from migueltc13/TryHackMe
+- [Anonforce](challenges/network/pentest-labs-writeups__Anonforce) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Bedside](challenges/network/pentest-labs-writeups__Bedside) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Break_Out_The_Cage](challenges/network/pentest-labs-writeups__Break_Out_The_Cage) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Cap](challenges/network/pentest-labs-writeups__Cap) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Enigma](challenges/network/pentest-labs-writeups__Enigma) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Interceptor](challenges/network/pentest-labs-writeups__Interceptor) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Orion](challenges/network/pentest-labs-writeups__Orion) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Padelify](challenges/network/pentest-labs-writeups__Padelify) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Paperwork](challenges/network/pentest-labs-writeups__Paperwork) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Reactor](challenges/network/pentest-labs-writeups__Reactor) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Recruit](challenges/network/pentest-labs-writeups__Recruit) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Team](challenges/network/pentest-labs-writeups__Team) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Thompson](challenges/network/pentest-labs-writeups__Thompson) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Year_of_the_Rabbit](challenges/network/pentest-labs-writeups__Year_of_the_Rabbit) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [b3dr0ck](challenges/network/pentest-labs-writeups__b3dr0ck) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [cohrot](challenges/network/pentest-labs-writeups__cohrot) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [lazy_admin](challenges/network/pentest-labs-writeups__lazy_admin) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [recon](challenges/network/pentest-labs-writeups__recon) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [recon](challenges/network/pentest-labs-writeups__recon-2) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [silent_monitor](challenges/network/pentest-labs-writeups__silent_monitor) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [startup](challenges/network/pentest-labs-writeups__startup) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Bolt](challenges/network/tryhackme-ctf__Bolt) -- from edoardottt/tryhackme-ctf
+- [Day-08-What's_Under_the_Christmas_Tree?](challenges/network/tryhackme-ctf__Day-08-What_s_Under_the_Christmas_Tree) -- from edoardottt/tryhackme-ctf
+- [Day-10-Offensive_Is_The_Best_Defence](challenges/network/tryhackme-ctf__Day-10-Offensive_Is_The_Best_Defence) -- from edoardottt/tryhackme-ctf
+- [Day-11-Where_Are_The_Reindeers](challenges/network/tryhackme-ctf__Day-11-Where_Are_The_Reindeers) -- from edoardottt/tryhackme-ctf
+- [Day-12-Ready,_set,_elf.](challenges/network/tryhackme-ctf__Day-12-Ready__set__elf.) -- from edoardottt/tryhackme-ctf
+- [Day-12-Sharing_Without_Caring](challenges/network/tryhackme-ctf__Day-12-Sharing_Without_Caring) -- from edoardottt/tryhackme-ctf
+- [Day-16-Help! Where is Santa?](challenges/network/tryhackme-ctf__Day-16-Help_Where_is_Santa) -- from edoardottt/tryhackme-ctf
+- [Easy-Peasy](challenges/network/tryhackme-ctf__Easy-Peasy) -- from edoardottt/tryhackme-ctf
+- [GoldenEye](challenges/network/tryhackme-ctf__GoldenEye) -- from edoardottt/tryhackme-ctf
+- [Nessus](challenges/network/tryhackme-ctf__Nessus) -- from edoardottt/tryhackme-ctf
+- [Network-Services](challenges/network/tryhackme-ctf__Network-Services) -- from edoardottt/tryhackme-ctf
+- [Network-Services-2](challenges/network/tryhackme-ctf__Network-Services-2) -- from edoardottt/tryhackme-ctf
+- [Networking](challenges/network/tryhackme-ctf__Networking) -- from edoardottt/tryhackme-ctf
+- [Nmap](challenges/network/tryhackme-ctf__Nmap) -- from edoardottt/tryhackme-ctf
+- [Steel-Mountain](challenges/network/tryhackme-ctf__Steel-Mountain) -- from edoardottt/tryhackme-ctf
+- [The-Cod-Caper](challenges/network/tryhackme-ctf__The-Cod-Caper) -- from edoardottt/tryhackme-ctf
+- [Tor](challenges/network/tryhackme-ctf__Tor) -- from edoardottt/tryhackme-ctf
+- [cc-pentesting](challenges/network/tryhackme-ctf__cc-pentesting) -- from edoardottt/tryhackme-ctf
+- [lianyu](challenges/network/tryhackme-ctf__lianyu) -- from edoardottt/tryhackme-ctf
+- [Easy](challenges/network/writeUp__Easy) -- from kurohat/writeUp
+- [Hard](challenges/network/writeUp__Hard) -- from kurohat/writeUp
+- [Medium](challenges/network/writeUp__Medium) -- from kurohat/writeUp
+- [Throwback](challenges/network/writeUp__Throwback) -- from kurohat/writeUp
+- [meAndMyGf1](challenges/network/writeUp__meAndMyGf1) -- from kurohat/writeUp
+- [window-privesc](challenges/network/writeUp__window-privesc) -- from kurohat/writeUp
+- [htb.archetype](challenges/network/writeups__htb.archetype) -- from 7h3rAm/writeups
+- [htb.bashed](challenges/network/writeups__htb.bashed) -- from 7h3rAm/writeups
+- [htb.blocky](challenges/network/writeups__htb.blocky) -- from 7h3rAm/writeups
+- [htb.blue](challenges/network/writeups__htb.blue) -- from 7h3rAm/writeups
+- [htb.buff](challenges/network/writeups__htb.buff) -- from 7h3rAm/writeups
+- [htb.cronos](challenges/network/writeups__htb.cronos) -- from 7h3rAm/writeups
+- [htb.devel](challenges/network/writeups__htb.devel) -- from 7h3rAm/writeups
+- [htb.grandpa](challenges/network/writeups__htb.grandpa) -- from 7h3rAm/writeups
+- [htb.granny](challenges/network/writeups__htb.granny) -- from 7h3rAm/writeups
+- [htb.lame](challenges/network/writeups__htb.lame) -- from 7h3rAm/writeups
+- [htb.legacy](challenges/network/writeups__htb.legacy) -- from 7h3rAm/writeups
+- [htb.mirai](challenges/network/writeups__htb.mirai) -- from 7h3rAm/writeups
+- [htb.optimum](challenges/network/writeups__htb.optimum) -- from 7h3rAm/writeups
+- [htb.shocker](challenges/network/writeups__htb.shocker) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-10) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-11) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-12) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-13) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-14) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-15) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-16) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-17) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-18) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-19) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-2) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-20) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-21) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-22) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-23) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-24) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-25) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-26) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-27) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-28) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-29) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-3) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-30) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-31) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-32) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-33) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-34) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-35) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-36) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-37) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-38) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-39) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-4) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-5) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-6) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-7) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-8) -- from 7h3rAm/writeups
+- [scans](challenges/network/writeups__scans-9) -- from 7h3rAm/writeups
+- [thm.yotf](challenges/network/writeups__thm.yotf) -- from 7h3rAm/writeups
+- [vulnhub.brainpan](challenges/network/writeups__vulnhub.brainpan) -- from 7h3rAm/writeups
+- [vulnhub.dc6](challenges/network/writeups__vulnhub.dc6) -- from 7h3rAm/writeups
+- [vulnhub.fristileaks1dot3](challenges/network/writeups__vulnhub.fristileaks1dot3) -- from 7h3rAm/writeups
+- [vulnhub.hackme](challenges/network/writeups__vulnhub.hackme) -- from 7h3rAm/writeups
+- [vulnhub.imf](challenges/network/writeups__vulnhub.imf) -- from 7h3rAm/writeups
+- [vulnhub.infosecpreposcp](challenges/network/writeups__vulnhub.infosecpreposcp) -- from 7h3rAm/writeups
+- [vulnhub.kioptrix1](challenges/network/writeups__vulnhub.kioptrix1) -- from 7h3rAm/writeups
+- [vulnhub.kioptrix2](challenges/network/writeups__vulnhub.kioptrix2) -- from 7h3rAm/writeups
+- [vulnhub.kioptrix5](challenges/network/writeups__vulnhub.kioptrix5) -- from 7h3rAm/writeups
+- [vulnhub.lazysysadmin1](challenges/network/writeups__vulnhub.lazysysadmin1) -- from 7h3rAm/writeups
+- [vulnhub.moria11](challenges/network/writeups__vulnhub.moria11) -- from 7h3rAm/writeups
+- [vulnhub.mrrobot1](challenges/network/writeups__vulnhub.mrrobot1) -- from 7h3rAm/writeups
+- [vulnhub.node1](challenges/network/writeups__vulnhub.node1) -- from 7h3rAm/writeups
+- [xml](challenges/network/writeups__xml) -- from 7h3rAm/writeups
+
+### osint (11)
+
+- [Car Crash](challenges/osint/CTFChall-Writeups__Car_Crash) -- from Ciyah/CTFChall-Writeups
+- [File Dump 02 ](challenges/osint/CTFChall-Writeups__File_Dump_02) -- from Ciyah/CTFChall-Writeups
+- [Follow The Money](challenges/osint/CTFChall-Writeups__Follow_The_Money) -- from Ciyah/CTFChall-Writeups
+- [Ghost of Squares Past](challenges/osint/CTFChall-Writeups__Ghost_of_Squares_Past) -- from Ciyah/CTFChall-Writeups
+- [Social Media Investigation Hub](challenges/osint/CTFChall-Writeups__Social_Media_Investigation_Hub) -- from Ciyah/CTFChall-Writeups
+- [The Puppet Master](challenges/osint/CTFChall-Writeups__The_Puppet_Master) -- from Ciyah/CTFChall-Writeups
+- [The Suspicious Domain](challenges/osint/CTFChall-Writeups__The_Suspicious_Domain) -- from Ciyah/CTFChall-Writeups
+- [WebVault Time Machine Investigation](challenges/osint/CTFChall-Writeups__WebVault_Time_Machine_Investigation) -- from Ciyah/CTFChall-Writeups
+- [Intel Expert](challenges/osint/CTFs__Intel_Expert) -- from Adamkadaban/CTFs
+- [Steal Mountain](challenges/osint/CTFs__Steal_Mountain) -- from Adamkadaban/CTFs
+- [The learner](challenges/osint/CTFs__The_learner) -- from Adamkadaban/CTFs
+
+### misc (187)
+
+- [AttckDef](challenges/misc/CTFChall-Writeups__AttckDef) -- from Ciyah/CTFChall-Writeups
+- [AttckDef Revenge](challenges/misc/CTFChall-Writeups__AttckDef_Revenge) -- from Ciyah/CTFChall-Writeups
+- [Broken Shell](challenges/misc/CTFChall-Writeups__Broken_Shell) -- from Ciyah/CTFChall-Writeups
+- [DoxPit](challenges/misc/CTFChall-Writeups__DoxPit) -- from Ciyah/CTFChall-Writeups
+- [Forklifts R Us](challenges/misc/CTFChall-Writeups__Forklifts_R_Us) -- from Ciyah/CTFChall-Writeups
+- [HILLarious](challenges/misc/CTFChall-Writeups__HILLarious) -- from Ciyah/CTFChall-Writeups
+- [Lucky Dice](challenges/misc/CTFChall-Writeups__Lucky_Dice) -- from Ciyah/CTFChall-Writeups
+- [Micro Storage](challenges/misc/CTFChall-Writeups__Micro_Storage) -- from Ciyah/CTFChall-Writeups
+- [NextPath](challenges/misc/CTFChall-Writeups__NextPath) -- from Ciyah/CTFChall-Writeups
+- [Noisy](challenges/misc/CTFChall-Writeups__Noisy) -- from Ciyah/CTFChall-Writeups
+- [Not Posixtive](challenges/misc/CTFChall-Writeups__Not_Posixtive) -- from Ciyah/CTFChall-Writeups
+- [Notebook Converter Pro](challenges/misc/CTFChall-Writeups__Notebook_Converter_Pro) -- from Ciyah/CTFChall-Writeups
+- [PyDome](challenges/misc/CTFChall-Writeups__PyDome) -- from Ciyah/CTFChall-Writeups
+- [RSAisEasy](challenges/misc/CTFChall-Writeups__RSAisEasy) -- from Ciyah/CTFChall-Writeups
+- [Secure Server](challenges/misc/CTFChall-Writeups__Secure_Server) -- from Ciyah/CTFChall-Writeups
+- [September](challenges/misc/CTFChall-Writeups__September) -- from Ciyah/CTFChall-Writeups
+- [ShinyHunter](challenges/misc/CTFChall-Writeups__ShinyHunter) -- from Ciyah/CTFChall-Writeups
+- [Thief](challenges/misc/CTFChall-Writeups__Thief) -- from Ciyah/CTFChall-Writeups
+- [Utterly Broken Shell](challenges/misc/CTFChall-Writeups__Utterly_Broken_Shell) -- from Ciyah/CTFChall-Writeups
+- [Wasting Time ](challenges/misc/CTFChall-Writeups__Wasting_Time) -- from Ciyah/CTFChall-Writeups
+- [av](challenges/misc/CTFChall-Writeups__av) -- from Ciyah/CTFChall-Writeups
+- [birds_of_randomness](challenges/misc/CTFChall-Writeups__birds_of_randomness) -- from Ciyah/CTFChall-Writeups
+- [challenge](challenges/misc/CTFChall-Writeups__challenge) -- from Ciyah/CTFChall-Writeups
+- [challenge](challenges/misc/CTFChall-Writeups__challenge-2) -- from Ciyah/CTFChall-Writeups
+- [challenge](challenges/misc/CTFChall-Writeups__challenge-3) -- from Ciyah/CTFChall-Writeups
+- [challenge](challenges/misc/CTFChall-Writeups__challenge-4) -- from Ciyah/CTFChall-Writeups
+- [config](challenges/misc/CTFChall-Writeups__config) -- from Ciyah/CTFChall-Writeups
+- [crypto_shambles](challenges/misc/CTFChall-Writeups__crypto_shambles) -- from Ciyah/CTFChall-Writeups
+- [public](challenges/misc/CTFChall-Writeups__public) -- from Ciyah/CTFChall-Writeups
+- [public](challenges/misc/CTFChall-Writeups__public-2) -- from Ciyah/CTFChall-Writeups
+- [public](challenges/misc/CTFChall-Writeups__public-3) -- from Ciyah/CTFChall-Writeups
+- [public](challenges/misc/CTFChall-Writeups__public-4) -- from Ciyah/CTFChall-Writeups
+- [public](challenges/misc/CTFChall-Writeups__public-5) -- from Ciyah/CTFChall-Writeups
+- [pwn_execute](challenges/misc/CTFChall-Writeups__pwn_execute) -- from Ciyah/CTFChall-Writeups
+- [pwn_scanner](challenges/misc/CTFChall-Writeups__pwn_scanner) -- from Ciyah/CTFChall-Writeups
+- [pwn_under_the_web](challenges/misc/CTFChall-Writeups__pwn_under_the_web) -- from Ciyah/CTFChall-Writeups
+- [rev_cyberpsychosis](challenges/misc/CTFChall-Writeups__rev_cyberpsychosis) -- from Ciyah/CTFChall-Writeups
+- [secure_server](challenges/misc/CTFChall-Writeups__secure_server) -- from Ciyah/CTFChall-Writeups
+- [sso-provider](challenges/misc/CTFChall-Writeups__sso-provider) -- from Ciyah/CTFChall-Writeups
+- [wastingtime-player](challenges/misc/CTFChall-Writeups__wastingtime-player) -- from Ciyah/CTFChall-Writeups
+- [web_spookifier](challenges/misc/CTFChall-Writeups__web_spookifier) -- from Ciyah/CTFChall-Writeups
+- [.ipynb_checkpoints](challenges/misc/CTFs__.ipynb_checkpoints) -- from Adamkadaban/CTFs
+- [0.Introduction](challenges/misc/CTFs__0.Introduction) -- from Adamkadaban/CTFs
+- [1.General](challenges/misc/CTFs__1.General) -- from Adamkadaban/CTFs
+- [1.ret2win](challenges/misc/CTFs__1.ret2win) -- from Adamkadaban/CTFs
+- [2.split](challenges/misc/CTFs__2.split) -- from Adamkadaban/CTFs
+- [3.callme](challenges/misc/CTFs__3.callme) -- from Adamkadaban/CTFs
+- [4.write4](challenges/misc/CTFs__4.write4) -- from Adamkadaban/CTFs
+- [5.badchars](challenges/misc/CTFs__5.badchars) -- from Adamkadaban/CTFs
+- [6.fluff](challenges/misc/CTFs__6.fluff) -- from Adamkadaban/CTFs
+- [7.pivot](challenges/misc/CTFs__7.pivot) -- from Adamkadaban/CTFs
+- [Balloons](challenges/misc/CTFs__Balloons) -- from Adamkadaban/CTFs
+- [CSAW Red 2020](challenges/misc/CTFs__CSAW_Red_2020) -- from Adamkadaban/CTFs
+- [Cat](challenges/misc/CTFs__Cat) -- from Adamkadaban/CTFs
+- [Day_02](challenges/misc/CTFs__Day_02) -- from Adamkadaban/CTFs
+- [Day_03](challenges/misc/CTFs__Day_03) -- from Adamkadaban/CTFs
+- [Day_09](challenges/misc/CTFs__Day_09) -- from Adamkadaban/CTFs
+- [Day_10](challenges/misc/CTFs__Day_10) -- from Adamkadaban/CTFs
+- [Day_16](challenges/misc/CTFs__Day_16) -- from Adamkadaban/CTFs
+- [Git is Fun](challenges/misc/CTFs__Git_is_Fun) -- from Adamkadaban/CTFs
+- [Homework](challenges/misc/CTFs__Homework) -- from Adamkadaban/CTFs
+- [Hyperopia](challenges/misc/CTFs__Hyperopia) -- from Adamkadaban/CTFs
+- [Memorandum](challenges/misc/CTFs__Memorandum) -- from Adamkadaban/CTFs
+- [PeaCTF 2020](challenges/misc/CTFs__PeaCTF_2020) -- from Adamkadaban/CTFs
+- [R_U_Awake](challenges/misc/CTFs__R_U_Awake) -- from Adamkadaban/CTFs
+- [Read The Rules](challenges/misc/CTFs__Read_The_Rules) -- from Adamkadaban/CTFs
+- [Recovery](challenges/misc/CTFs__Recovery) -- from Adamkadaban/CTFs
+- [Repetition 1](challenges/misc/CTFs__Repetition_1) -- from Adamkadaban/CTFs
+- [Repetition 2](challenges/misc/CTFs__Repetition_2) -- from Adamkadaban/CTFs
+- [ShellCode-Analysis](challenges/misc/CTFs__ShellCode-Analysis) -- from Adamkadaban/CTFs
+- [Syringe](challenges/misc/CTFs__Syringe) -- from Adamkadaban/CTFs
+- [Triple](challenges/misc/CTFs__Triple) -- from Adamkadaban/CTFs
+- [Zip Zip](challenges/misc/CTFs__Zip_Zip) -- from Adamkadaban/CTFs
+- [christmas](challenges/misc/CTFs__christmas) -- from Adamkadaban/CTFs
+- [chrono](challenges/misc/CTFs__chrono) -- from Adamkadaban/CTFs
+- [datasci-team](challenges/misc/CTFs__datasci-team) -- from Adamkadaban/CTFs
+- [flaws.cloud](challenges/misc/CTFs__flaws.cloud) -- from Adamkadaban/CTFs
+- [hack-a-mole](challenges/misc/CTFs__hack-a-mole) -- from Adamkadaban/CTFs
+- [misc](challenges/misc/CTFs__misc) -- from Adamkadaban/CTFs
+- [money-ware](challenges/misc/CTFs__money-ware) -- from Adamkadaban/CTFs
+- [old_dayz](challenges/misc/CTFs__old_dayz) -- from Adamkadaban/CTFs
+- [otherplane](challenges/misc/CTFs__otherplane) -- from Adamkadaban/CTFs
+- [repetitions](challenges/misc/CTFs__repetitions) -- from Adamkadaban/CTFs
+- [sentinel](challenges/misc/CTFs__sentinel) -- from Adamkadaban/CTFs
+- [wanabeel33t](challenges/misc/CTFs__wanabeel33t) -- from Adamkadaban/CTFs
+- [cyberseclabs](challenges/misc/Pentest-Everything__cyberseclabs) -- from The-Viper-One/Pentest-Everything
+- [hackthebox](challenges/misc/Pentest-Everything__hackthebox) -- from The-Viper-One/Pentest-Everything
+- [pg-play-or-vulnhub](challenges/misc/Pentest-Everything__pg-play-or-vulnhub) -- from The-Viper-One/Pentest-Everything
+- [pg-practice](challenges/misc/Pentest-Everything__pg-practice) -- from The-Viper-One/Pentest-Everything
+- [tryhackme](challenges/misc/Pentest-Everything__tryhackme) -- from The-Viper-One/Pentest-Everything
+- [writeups](challenges/misc/Pentest-Everything__writeups) -- from The-Viper-One/Pentest-Everything
+- [Welcome](challenges/misc/TryHackMe__Welcome) -- from migueltc13/TryHackMe
+- [ftp](challenges/misc/TryHackMe__ftp) -- from migueltc13/TryHackMe
+- [write-ups](challenges/misc/TryHackMe__write-ups) -- from migueltc13/TryHackMe
+- [24DangerousDrives](challenges/misc/WriteUps__24DangerousDrives) -- from Ednas/WriteUps
+- [28DigitalDuplicates](challenges/misc/WriteUps__28DigitalDuplicates) -- from Ednas/WriteUps
+- [29ProperlyPrioritizedWebWatching](challenges/misc/WriteUps__29ProperlyPrioritizedWebWatching) -- from Ednas/WriteUps
+- [30ConflictInTheConfig](challenges/misc/WriteUps__30ConflictInTheConfig) -- from Ednas/WriteUps
+- [32LinuxAdministration101](challenges/misc/WriteUps__32LinuxAdministration101) -- from Ednas/WriteUps
+- [34SystemsSecurityAnalystCrashCourse](challenges/misc/WriteUps__34SystemsSecurityAnalystCrashCourse) -- from Ednas/WriteUps
+- [35SecurityBegins](challenges/misc/WriteUps__35SecurityBegins) -- from Ednas/WriteUps
+- [7HelpdeskFunDrivesandWebApps](challenges/misc/WriteUps__7HelpdeskFunDrivesandWebApps) -- from Ednas/WriteUps
+- [8LengthyLogsAttackAnalysis](challenges/misc/WriteUps__8LengthyLogsAttackAnalysis) -- from Ednas/WriteUps
+- [template](challenges/misc/WriteUps__template) -- from Ednas/WriteUps
+- [3v@l](challenges/misc/pentest-labs-writeups__3v_l) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [CVE-2025-32432](challenges/misc/pentest-labs-writeups__CVE-2025-32432) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [CVE-2025-64512-Polyglot-PoC](challenges/misc/pentest-labs-writeups__CVE-2025-64512-Polyglot-PoC) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Credential_Stuffing](challenges/misc/pentest-labs-writeups__Credential_Stuffing) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [North-South](challenges/misc/pentest-labs-writeups__North-South) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Support](challenges/misc/pentest-labs-writeups__Support) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Trickster](challenges/misc/pentest-labs-writeups__Trickster) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [apriti_sesamo](challenges/misc/pentest-labs-writeups__apriti_sesamo) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [challenge](challenges/misc/pentest-labs-writeups__challenge) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [challenge](challenges/misc/pentest-labs-writeups__challenge-2) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [challenge](challenges/misc/pentest-labs-writeups__challenge-3) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [checkmate](challenges/misc/pentest-labs-writeups__checkmate) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [cracking_chall](challenges/misc/pentest-labs-writeups__cracking_chall) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [dela_ssh_KEY](challenges/misc/pentest-labs-writeups__dela_ssh_KEY) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [exploits](challenges/misc/pentest-labs-writeups__exploits) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [exploits](challenges/misc/pentest-labs-writeups__exploits-2) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [k8s_escape](challenges/misc/pentest-labs-writeups__k8s_escape) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [msfroggenerator2](challenges/misc/pentest-labs-writeups__msfroggenerator2) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [pachinko](challenges/misc/pentest-labs-writeups__pachinko) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [picobrowser](challenges/misc/pentest-labs-writeups__picobrowser) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [public](challenges/misc/pentest-labs-writeups__public) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [source](challenges/misc/pentest-labs-writeups__source) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [space_explorer](challenges/misc/pentest-labs-writeups__space_explorer) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [themes](challenges/misc/pentest-labs-writeups__themes) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [traefik](challenges/misc/pentest-labs-writeups__traefik) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [web_magical_palindrome](challenges/misc/pentest-labs-writeups__web_magical_palindrome) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [web_spookifier](challenges/misc/pentest-labs-writeups__web_spookifier) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Advent-of-Cyber-2020](challenges/misc/tryhackme-ctf__Advent-of-Cyber-2020) -- from edoardottt/tryhackme-ctf
+- [Advent-of-Cyber-2021](challenges/misc/tryhackme-ctf__Advent-of-Cyber-2021) -- from edoardottt/tryhackme-ctf
+- [Baron-Samedit](challenges/misc/tryhackme-ctf__Baron-Samedit) -- from edoardottt/tryhackme-ctf
+- [Bash-Scripting](challenges/misc/tryhackme-ctf__Bash-Scripting) -- from edoardottt/tryhackme-ctf
+- [Day-02-The_Elf_Strikes_Back!](challenges/misc/tryhackme-ctf__Day-02-The_Elf_Strikes_Back) -- from edoardottt/tryhackme-ctf
+- [Day-03-Christmas_Blackout](challenges/misc/tryhackme-ctf__Day-03-Christmas_Blackout) -- from edoardottt/tryhackme-ctf
+- [Day-03-Christmas_Chaos](challenges/misc/tryhackme-ctf__Day-03-Christmas_Chaos) -- from edoardottt/tryhackme-ctf
+- [Day-04-Santa's_watching](challenges/misc/tryhackme-ctf__Day-04-Santa_s_watching) -- from edoardottt/tryhackme-ctf
+- [Day-05-Pesky_Elf_Forum](challenges/misc/tryhackme-ctf__Day-05-Pesky_Elf_Forum) -- from edoardottt/tryhackme-ctf
+- [Day-08-Santas_Bag_of_Toys](challenges/misc/tryhackme-ctf__Day-08-Santas_Bag_of_Toys) -- from edoardottt/tryhackme-ctf
+- [Day-09-Anyone_can_be_Santa!](challenges/misc/tryhackme-ctf__Day-09-Anyone_can_be_Santa) -- from edoardottt/tryhackme-ctf
+- [Day-09-Where_Is_All_This_Data_Going](challenges/misc/tryhackme-ctf__Day-09-Where_Is_All_This_Data_Going) -- from edoardottt/tryhackme-ctf
+- [Day-13-They_Lost_The_Plan](challenges/misc/tryhackme-ctf__Day-13-They_Lost_The_Plan) -- from edoardottt/tryhackme-ctf
+- [Day-14-Dev(Insecure)Ops](challenges/misc/tryhackme-ctf__Day-14-Dev_Insecure_Ops) -- from edoardottt/tryhackme-ctf
+- [Day-15-The_Grinchs_day_off](challenges/misc/tryhackme-ctf__Day-15-The_Grinchs_day_off) -- from edoardottt/tryhackme-ctf
+- [Day-15-There's a Python in my stocking!](challenges/misc/tryhackme-ctf__Day-15-There_s_a_Python_in_my_stocking) -- from edoardottt/tryhackme-ctf
+- [Day-16-Ransomware_Madness](challenges/misc/tryhackme-ctf__Day-16-Ransomware_Madness) -- from edoardottt/tryhackme-ctf
+- [Day-17-Elf_Leaks](challenges/misc/tryhackme-ctf__Day-17-Elf_Leaks) -- from edoardottt/tryhackme-ctf
+- [Day-18-Playing_With_Containers](challenges/misc/tryhackme-ctf__Day-18-Playing_With_Containers) -- from edoardottt/tryhackme-ctf
+- [Day-19-Something_Phishy_Is_Going_On](challenges/misc/tryhackme-ctf__Day-19-Something_Phishy_Is_Going_On) -- from edoardottt/tryhackme-ctf
+- [Day-20-PowershELlF_to_the_rescue](challenges/misc/tryhackme-ctf__Day-20-PowershELlF_to_the_rescue) -- from edoardottt/tryhackme-ctf
+- [Day-20-What_s_the_Worst_That_Could_Happen](challenges/misc/tryhackme-ctf__Day-20-What_s_the_Worst_That_Could_Happen) -- from edoardottt/tryhackme-ctf
+- [Day-21-Needles_In_Computer_Stacks](challenges/misc/tryhackme-ctf__Day-21-Needles_In_Computer_Stacks) -- from edoardottt/tryhackme-ctf
+- [Day-21-Time_for_some_ELForensics](challenges/misc/tryhackme-ctf__Day-21-Time_for_some_ELForensics) -- from edoardottt/tryhackme-ctf
+- [Day-22-Elf_McEager_becomes_CyberElf](challenges/misc/tryhackme-ctf__Day-22-Elf_McEager_becomes_CyberElf) -- from edoardottt/tryhackme-ctf
+- [Day-22-How_It_Happened](challenges/misc/tryhackme-ctf__Day-22-How_It_Happened) -- from edoardottt/tryhackme-ctf
+- [Game-Zone](challenges/misc/tryhackme-ctf__Game-Zone) -- from edoardottt/tryhackme-ctf
+- [Getting-Started](challenges/misc/tryhackme-ctf__Getting-Started) -- from edoardottt/tryhackme-ctf
+- [Hacking-with-Powershell](challenges/misc/tryhackme-ctf__Hacking-with-Powershell) -- from edoardottt/tryhackme-ctf
+- [Hardening-Basics-Part-2](challenges/misc/tryhackme-ctf__Hardening-Basics-Part-2) -- from edoardottt/tryhackme-ctf
+- [HeartBleed](challenges/misc/tryhackme-ctf__HeartBleed) -- from edoardottt/tryhackme-ctf
+- [Intro-to-Python](challenges/misc/tryhackme-ctf__Intro-to-Python) -- from edoardottt/tryhackme-ctf
+- [Introduction-to-Flask](challenges/misc/tryhackme-ctf__Introduction-to-Flask) -- from edoardottt/tryhackme-ctf
+- [Introduction-to-OWASP-ZAP](challenges/misc/tryhackme-ctf__Introduction-to-OWASP-ZAP) -- from edoardottt/tryhackme-ctf
+- [Introductory-Networking](challenges/misc/tryhackme-ctf__Introductory-Networking) -- from edoardottt/tryhackme-ctf
+- [Linux-Fundamentals-Part-1](challenges/misc/tryhackme-ctf__Linux-Fundamentals-Part-1) -- from edoardottt/tryhackme-ctf
+- [Linux-Fundamentals-Part-2](challenges/misc/tryhackme-ctf__Linux-Fundamentals-Part-2) -- from edoardottt/tryhackme-ctf
+- [Linux-Fundamentals-Part-3](challenges/misc/tryhackme-ctf__Linux-Fundamentals-Part-3) -- from edoardottt/tryhackme-ctf
+- [MAL:-REMnux-The_Redux](challenges/misc/tryhackme-ctf__MAL_-REMnux-The_Redux) -- from edoardottt/tryhackme-ctf
+- [Ninja-Skills](challenges/misc/tryhackme-ctf__Ninja-Skills) -- from edoardottt/tryhackme-ctf
+- [Post-Exploitation-Basics](challenges/misc/tryhackme-ctf__Post-Exploitation-Basics) -- from edoardottt/tryhackme-ctf
+- [Regular-expressions](challenges/misc/tryhackme-ctf__Regular-expressions) -- from edoardottt/tryhackme-ctf
+- [Searchlight-IMINT](challenges/misc/tryhackme-ctf__Searchlight-IMINT) -- from edoardottt/tryhackme-ctf
+- [Starting-Out-In-Cyber-Sec](challenges/misc/tryhackme-ctf__Starting-Out-In-Cyber-Sec) -- from edoardottt/tryhackme-ctf
+- [Sublist3r](challenges/misc/tryhackme-ctf__Sublist3r) -- from edoardottt/tryhackme-ctf
+- [The-find-command](challenges/misc/tryhackme-ctf__The-find-command) -- from edoardottt/tryhackme-ctf
+- [Toolbox-Vim](challenges/misc/tryhackme-ctf__Toolbox-Vim) -- from edoardottt/tryhackme-ctf
+- [ToolsRus](challenges/misc/tryhackme-ctf__ToolsRus) -- from edoardottt/tryhackme-ctf
+- [_cutie.png.extracted](challenges/misc/tryhackme-ctf___cutie.png.extracted) -- from edoardottt/tryhackme-ctf
+- [crack-the-hash](challenges/misc/tryhackme-ctf__crack-the-hash) -- from edoardottt/tryhackme-ctf
+- [ignite](challenges/misc/tryhackme-ctf__ignite) -- from edoardottt/tryhackme-ctf
+- [ss](challenges/misc/tryhackme-ctf__ss) -- from edoardottt/tryhackme-ctf
+- [Bandit](challenges/misc/writeUp__Bandit) -- from kurohat/writeUp
+- [OverTheWire](challenges/misc/writeUp__OverTheWire) -- from kurohat/writeUp
+- [PicoCTF](challenges/misc/writeUp__PicoCTF) -- from kurohat/writeUp
+- [ractf](challenges/misc/writeUp__ractf) -- from kurohat/writeUp
+
+## Reference / cheat sheets
+
+### active-directory (19)
+
+- [Credential-Dumping](reference/active-directory/Pentest-Everything__Credential-Dumping) -- from The-Viper-One/Pentest-Everything
+- [access-token-manipultion](reference/active-directory/Pentest-Everything__access-token-manipultion) -- from The-Viper-One/Pentest-Everything
+- [adcs](reference/active-directory/Pentest-Everything__adcs) -- from The-Viper-One/Pentest-Everything
+- [adversary-in-the-middle](reference/active-directory/Pentest-Everything__adversary-in-the-middle) -- from The-Viper-One/Pentest-Everything
+- [alternate-authentication-material](reference/active-directory/Pentest-Everything__alternate-authentication-material) -- from The-Viper-One/Pentest-Everything
+- [brute-force](reference/active-directory/Pentest-Everything__brute-force) -- from The-Viper-One/Pentest-Everything
+- [cheat-sheets](reference/active-directory/Pentest-Everything__cheat-sheets) -- from The-Viper-One/Pentest-Everything
+- [create-account](reference/active-directory/Pentest-Everything__create-account) -- from The-Viper-One/Pentest-Everything
+- [dcsync](reference/active-directory/Pentest-Everything__dcsync) -- from The-Viper-One/Pentest-Everything
+- [everything-active-directory](reference/active-directory/Pentest-Everything__everything-active-directory) -- from The-Viper-One/Pentest-Everything
+- [forced-coercion](reference/active-directory/Pentest-Everything__forced-coercion) -- from The-Viper-One/Pentest-Everything
+- [lateral-movement](reference/active-directory/Pentest-Everything__lateral-movement) -- from The-Viper-One/Pentest-Everything
+- [modify-authentication-process](reference/active-directory/Pentest-Everything__modify-authentication-process) -- from The-Viper-One/Pentest-Everything
+- [persistence](reference/active-directory/Pentest-Everything__persistence) -- from The-Viper-One/Pentest-Everything
+- [privilege-escalation](reference/active-directory/Pentest-Everything__privilege-escalation) -- from The-Viper-One/Pentest-Everything
+- [registry](reference/active-directory/Pentest-Everything__registry) -- from The-Viper-One/Pentest-Everything
+- [sccm-mecm](reference/active-directory/Pentest-Everything__sccm-mecm) -- from The-Viper-One/Pentest-Everything
+- [steal-or-forge-kerberos-tickets](reference/active-directory/Pentest-Everything__steal-or-forge-kerberos-tickets) -- from The-Viper-One/Pentest-Everything
+- [tools](reference/active-directory/Pentest-Everything__tools) -- from The-Viper-One/Pentest-Everything
+
+### web (1)
+
+- [everything-web](reference/web/Pentest-Everything__everything-web) -- from The-Viper-One/Pentest-Everything
+
+### reverse-engineering (1)
+
+- [.resources](reference/reverse-engineering/CTFs__.resources) -- from Adamkadaban/CTFs
+
+### crypto (2)
+
+- [credentials-from-password-stores](reference/crypto/Pentest-Everything__credentials-from-password-stores) -- from The-Viper-One/Pentest-Everything
+- [group-policy-preferences](reference/crypto/Pentest-Everything__group-policy-preferences) -- from The-Viper-One/Pentest-Everything
+
+### forensics (2)
+
+- [everything-osint](reference/forensics/Pentest-Everything__everything-osint) -- from The-Viper-One/Pentest-Everything
+- [ImmersiveLabs](reference/forensics/WriteUps__ImmersiveLabs) -- from Ednas/WriteUps
+
+### privilege-escalation (5)
+
+- [everything-linux](reference/privilege-escalation/Pentest-Everything__everything-linux) -- from The-Viper-One/Pentest-Everything
+- [indicator-removal](reference/privilege-escalation/Pentest-Everything__indicator-removal) -- from The-Viper-One/Pentest-Everything
+- [service-exploits](reference/privilege-escalation/Pentest-Everything__service-exploits) -- from The-Viper-One/Pentest-Everything
+- [unsecured-credentials](reference/privilege-escalation/Pentest-Everything__unsecured-credentials) -- from The-Viper-One/Pentest-Everything
+- [CheatSheet](reference/privilege-escalation/writeUp__CheatSheet) -- from kurohat/writeUp
+
+### network (2)
+
+- [impair-defenses](reference/network/Pentest-Everything__impair-defenses) -- from The-Viper-One/Pentest-Everything
+- [ports](reference/network/Pentest-Everything__ports) -- from The-Viper-One/Pentest-Everything
+
+### misc (8)
+
+- [collection](reference/misc/Pentest-Everything__collection) -- from The-Viper-One/Pentest-Everything
+- [create-or-modify-system-process](reference/misc/Pentest-Everything__create-or-modify-system-process) -- from The-Viper-One/Pentest-Everything
+- [credential-access](reference/misc/Pentest-Everything__credential-access) -- from The-Viper-One/Pentest-Everything
+- [defense-evasion](reference/misc/Pentest-Everything__defense-evasion) -- from The-Viper-One/Pentest-Everything
+- [input-capture](reference/misc/Pentest-Everything__input-capture) -- from The-Viper-One/Pentest-Everything
+- [powershell](reference/misc/Pentest-Everything__powershell) -- from The-Viper-One/Pentest-Everything
+- [public](reference/misc/pentest-labs-writeups__public) -- from Ben-Ammar-Sabri/pentest-labs-writeups
+- [Vuln-scan](reference/misc/writeUp__Vuln-scan) -- from kurohat/writeUp
